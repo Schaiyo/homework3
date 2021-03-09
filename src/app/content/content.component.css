@@ -1,0 +1,32 @@
+.bg {
+    background-color: #f1f1f1;
+}
+
+hr {
+    border-top: gray;
+}
+
+.container {
+    padding: 5em 7em 0em 7em;
+}
+
+.flex-container {
+    padding: 1em 7em 1em 7em;
+    display: flex;
+    background-color: #f1f1f1;
+}
+  
+.flex-container > div {
+    background-color: white;
+    width: 35%;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+img {
+    height: 150px;
+}
