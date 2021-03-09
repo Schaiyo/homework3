@@ -1,0 +1,17 @@
+.searchbox {
+    position: absolute;
+    left: 150px;
+    top: 380px;
+    z-index: 999;
+    
+}
+
+input {
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 650px;
+    background-image: url('/assets/images/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}

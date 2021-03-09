@@ -1,6 +1,7 @@
-.bg {
+.main {
     background-image: url('/assets/images/background.jpg');
     color: white;
+    height: 400px;
 }
 
 .header {
@@ -14,14 +15,15 @@
 
 .menu {
     text-align: right;
-    padding-right: 2em;
+    padding-right: 4em;
+    /* padding-left: 38em; */
 }
 
 .buttonLogin {
     background-color: white;
     color: red;
     border: 2px solid #555555;
-    padding: 14px 20px;
+    padding: 14px 30px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
@@ -76,5 +78,6 @@
 }
 
 .container {
-    padding: 1em 9em 5em 9em;
+    width: 80%;
+    padding: 1em 5em 5em 9em;
 }
